@@ -1,0 +1,52 @@
+{
+  "name": "paydunya-ts",
+  "version": "1.0.0",
+  "description": "PAYDUNYA Node.JS Library with typescript",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "private": false,
+  "scripts": {
+    "test": "npx mocha tests/*.test.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makhtar-sarr/paydunya-ts.git"
+  },
+  "keywords": [
+    "paydunya",
+    "paydunya",
+    "ts",
+    "paydunya",
+    "typescript",
+    "mobile",
+    "payment"
+  ],
+  "author": "Makhtar Sarr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/makhtar-sarr/paydunya-ts/issues"
+  },
+  "homepage": "https://github.com/makhtar-sarr/paydunya-ts#readme",
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2018",
+    "outDir": "dist",
+    "declaration": true,
+    "strict": true
+  },
+  "devDependencies": {
+    "@types/bluebird": "^3.5.38",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^20.4.5",
+    "@types/superagent": "^4.1.18",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "superagent": "^8.0.9"
+  }
+}
